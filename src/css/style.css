@@ -1,0 +1,7 @@
+media-controller {
+    z-index: 500;
+    margin-top: 1rem; 
+    --media-preview-time-text-shadow: none;
+    --media-box-margin: 0px;
+    --media-font-family: var(--a-base-font-family);
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Audio Player",
+    "version": "1.0",
+    "description": "Audio Player plug-in for Oracle APEX",
+    "keywords": ["audio", "player", "media"],
+    "homepage": "https://github.com/LouisMoreaux/apex-audio-player",
+    "bugs": {
+      "url": "https://github.com/LouisMoreaux/apex-audio-player/issues",
+      "email": "moreaux.louis@gmail.com"
+    },
+    "license": "MIT",
+    "commercial": "No",
+    "author": {
+      "name": "Louis Moreaux",
+      "email": "moreaux.louis@gmail.com",
+      "url": "https://lmoreaux.hashnode.dev/",
+      "twitter": "moreaux_louis",
+      "donationUrl": ""
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/LouisMoreaux/apex-audio-player.git"
+    },
+    "oracle": {
+      "versions": ["23.2.0", "21.1.0", "19.1.0"],
+      "apex": {
+        "versions": ["24.1.0"],
+        "plugin": {
+          "internalName": "APEX.LMOREAUX.AUDIO_PLAYER",
+          "type": "template component",
+          "demo": "https://apex.oracle.com/pls/apex/r/louis/template-component/audio-player",
+          "previewImage": "https://github.com/LouisMoreaux/apex-audio-player/blob/main/assets/apex-audio-player.gif?raw=true"
+        }
+      }
+    }
+  }
